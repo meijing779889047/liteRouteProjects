@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+apply plugin: 'android-apt'
+
+def config=rootProject.ext
+android {
+    compileSdkVersion config.compileSdkVersion
+    buildToolsVersion config.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode config.versionCode
+        versionName config.versionName
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile config.butterknife
+    compile config.supportAppcompatV7
+    compile config.supportV4
+    compile config.multidex
+    compile project(':literouterlibrary')
+}
+

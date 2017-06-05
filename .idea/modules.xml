@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LiteRouterProject.iml" filepath="$PROJECT_DIR$/LiteRouterProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonlibrary/commonlibrary.iml" filepath="$PROJECT_DIR$/commonlibrary/commonlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/literouterlibrary/literouterlibrary.iml" filepath="$PROJECT_DIR$/literouterlibrary/literouterlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module1library/module1library.iml" filepath="$PROJECT_DIR$/module1library/module1library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module2library/module2library.iml" filepath="$PROJECT_DIR$/module2library/module2library.iml" />
+    </modules>
+  </component>
+</project>

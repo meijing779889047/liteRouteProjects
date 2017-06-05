@@ -1,0 +1,1 @@
+include ':app', ':commonlibrary', ':module1library', ':module2library', ':literouterlibrary'
